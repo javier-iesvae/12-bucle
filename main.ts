@@ -1,7 +1,7 @@
-basic.forever(function () {
-    for (let index = 0; index <= 4; index++) {
-        for (let index = 0; index <= 4; index++) {
-            led.plot(0, index)
+basic.forever(function on_forever() {
+    for (let N = 0; N < 5; N++) {
+        for (let index = 0; index < 5; index++) {
+            led.plot(N, index)
         }
     }
 })
